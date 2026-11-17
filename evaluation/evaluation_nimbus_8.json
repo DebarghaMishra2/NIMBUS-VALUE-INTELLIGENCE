@@ -1,0 +1,117 @@
+{
+  "dataset_id": "nimbus_8",
+  "initiative_count": 8,
+  "planted_issue_catalogue_count": 17,
+  "change_log_entry_count": 129,
+  "charter_chunk_count": 63,
+  "embedding_backend": "tfidf-fallback",
+  "scorecard_max_abs_difference": 3.637978807091713e-12,
+  "scorecard_numeric_column_differences": {
+    "months_live": 0.0,
+    "adoption": 0.0,
+    "wau_change": 8.326672684688674e-17,
+    "roi": 0.0,
+    "avg_monthly_benefit": 3.637978807091713e-12,
+    "payback_months": 0.0,
+    "run_rate_vs_plan": 1.1102230246251565e-16
+  },
+  "status_match": true,
+  "scorecard_pass": true,
+  "functional_checks": {
+    "numeric_question_routes_to_analytics": true,
+    "missing_evidence_uses_required_fallback": true,
+    "personal_data_uses_required_fallback": true,
+    "injection_text_not_passed_to_retrieval_context": true,
+    "hybrid_question_uses_both_paths": true,
+    "weekly_report_created": true,
+    "charter_chunks_created": true,
+    "section_aware_retrieval_and_citations": true
+  },
+  "functional_pass": true,
+  "retrieval_evaluation": {
+    "test_case_count": 8,
+    "exact_source_section_hit_rate": 1.0,
+    "mean_reciprocal_rank": 1.0,
+    "results": [
+      {
+        "question": "What risks and mitigations are documented for INIT-001?",
+        "expected_source": "hr_policy_copilot_charter.md",
+        "expected_section": "Risks and Mitigations",
+        "citation_hit": true,
+        "rank": 1
+      },
+      {
+        "question": "What risks and mitigations are documented for INIT-005?",
+        "expected_source": "customer_service_chatbot_charter.md",
+        "expected_section": "Risks and Mitigations",
+        "citation_hit": true,
+        "rank": 1
+      },
+      {
+        "question": "Who is the product owner and technical lead for INIT-002?",
+        "expected_source": "it_helpdesk_bot_charter.md",
+        "expected_section": "Stakeholders",
+        "citation_hit": true,
+        "rank": 1
+      },
+      {
+        "question": "What benefits plan is documented for INIT-004?",
+        "expected_source": "contract_review_assistant_charter.md",
+        "expected_section": "Benefits Plan",
+        "citation_hit": true,
+        "rank": 1
+      },
+      {
+        "question": "What is the scope of INIT-003?",
+        "expected_source": "sales_forecast_model_charter.pdf",
+        "expected_section": "Scope",
+        "citation_hit": true,
+        "rank": 1
+      },
+      {
+        "question": "What is the timeline for INIT-006?",
+        "expected_source": "invoice_anomaly_detector_charter.docx",
+        "expected_section": "Timeline",
+        "citation_hit": true,
+        "rank": 1
+      },
+      {
+        "question": "What are the objectives of INIT-007?",
+        "expected_source": "marketing_content_copilot_charter.md",
+        "expected_section": "Objectives",
+        "citation_hit": true,
+        "rank": 1
+      },
+      {
+        "question": "What are the success measures for INIT-008?",
+        "expected_source": "demand_planning_model_charter.pdf",
+        "expected_section": "Success Measures",
+        "citation_hit": true,
+        "rank": 1
+      }
+    ],
+    "method": "Manually curated section-aware query set based on the eight supplied charters; useful as a smoke test, not a broad unbiased retrieval benchmark."
+  },
+  "change_log_rules": [
+    "DATE_NORMALIZED",
+    "EXACT_DUPLICATE_REMOVED",
+    "FINANCIAL_MEASURE_ALIAS_MAPPED",
+    "FINANCIAL_VALUE_PARSED",
+    "ID_NORMALIZED",
+    "METRIC_ALIAS_MAPPED",
+    "MISSING_USAGE_WEEK",
+    "MONTHLY_COST_AGGREGATED",
+    "NAME_NORMALIZED",
+    "NEGATIVE_WAU_SIGN_CORRECTED",
+    "NUMERIC_NORMALIZED",
+    "PRECOMPUTED_ROI_IGNORED",
+    "REPORTED_ROI_MISMATCH",
+    "USD_THOUSANDS_CONVERTED",
+    "WAU_EXCEEDS_LICENSED_USERS"
+  ],
+  "limitations": [
+    "RAG retrieval relevance is smoke-tested here; a judged query/relevance set is still needed for Precision@K, Recall@K and MRR.",
+    "The optional hosted LLM path requires a user-supplied API key and should be evaluated with the chosen provider/model.",
+    "The data is synthetic practice data, not production Nimbus Group financial evidence."
+  ]
+}

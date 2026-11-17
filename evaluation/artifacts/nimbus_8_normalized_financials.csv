@@ -1,0 +1,35 @@
+initiative_id,report_date,measure,value,unit,basis,raw_measure
+INIT-004,2026-11-15,cost_to_date,90000.0,USD,cumulative,total_cost
+INIT-007,2026-11-15,benefit_to_date,97500.0,USD,cumulative,benefit_to_date
+INIT-008,2026-11-15,cost_to_date,210000.0,USD,cumulative,cost_to_date
+INIT-005,2026-11-15,reported_roi_pct,75.0,%,cumulative,reported_roi_pct
+INIT-002,2026-07-31,cost_to_date,20000.0,USD,monthly,monthly_cost
+INIT-003,2026-11-15,benefit_to_date,195000.0,USD,cumulative,realised_benefit
+INIT-006,2026-11-15,benefit_to_date,160000.0,USD,cumulative,value_delivered
+INIT-002,2026-06-30,cost_to_date,20000.0,USD,monthly,monthly_cost
+INIT-005,2026-11-15,cost_to_date,520000.0,USD,cumulative,cost_to_date
+INIT-002,2025-12-31,cost_to_date,20000.0,USD,monthly,monthly_cost
+INIT-002,2026-09-30,cost_to_date,20000.0,USD,monthly,monthly_cost
+INIT-008,2026-11-15,reported_roi_pct,0.0,%,cumulative,reported_roi_pct
+INIT-002,2026-05-31,cost_to_date,20000.0,USD,monthly,monthly_cost
+INIT-004,2026-11-15,benefit_to_date,140000.0,USD,cumulative,benefit_to_date
+INIT-006,2026-11-15,cost_to_date,160000.0,USD,cumulative,spend
+INIT-001,2026-11-15,reported_roi_pct,166.7,%,cumulative,reported_roi_pct
+INIT-002,2026-04-30,cost_to_date,20000.0,USD,monthly,monthly_cost
+INIT-002,2026-11-15,benefit_to_date,410000.0,USD,cumulative,benefit_to_date
+INIT-003,2026-11-15,cost_to_date,150000.0,USD,cumulative,cost_to_date
+INIT-006,2026-11-15,reported_roi_pct,100.0,%,cumulative,reported_roi_pct
+INIT-004,2026-11-15,reported_roi_pct,155.6,%,cumulative,reported_roi_pct
+INIT-001,2026-11-15,benefit_to_date,300000.0,USD,cumulative,Benefit to date
+INIT-007,2026-11-15,reported_roi_pct,130.0,%,cumulative,reported_roi_pct
+INIT-003,2026-11-15,reported_roi_pct,130.0,%,cumulative,reported_roi_pct
+INIT-002,2026-03-31,cost_to_date,20000.0,USD,monthly,monthly_cost
+INIT-005,2026-11-15,benefit_to_date,390000.0,USD,cumulative,benefit_to_date
+INIT-001,2026-11-15,cost_to_date,180000.0,USD,cumulative,Cost to date
+INIT-007,2026-11-15,cost_to_date,75000.0,USD,cumulative,cost_to_date
+INIT-008,2026-11-15,benefit_to_date,0.0,USD,cumulative,benefit_to_date
+INIT-002,2026-08-31,cost_to_date,20000.0,USD,monthly,monthly_cost
+INIT-002,2026-02-28,cost_to_date,20000.0,USD,monthly,monthly_cost
+INIT-002,2026-11-15,reported_roi_pct,186.4,%,cumulative,reported_roi_pct
+INIT-002,2026-01-31,cost_to_date,20000.0,USD,monthly,monthly_cost
+INIT-002,2026-10-31,cost_to_date,20000.0,USD,monthly,monthly_cost

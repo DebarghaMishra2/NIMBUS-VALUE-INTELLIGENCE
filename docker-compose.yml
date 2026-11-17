@@ -1,0 +1,13 @@
+services:
+  nimbus-assistant:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - path: .env
+        required: false
+    environment:
+      DEFAULT_AS_OF_DATE: "2026-11-15"
+      EMBEDDING_BACKEND: "auto"
+    volumes:
+      - ./storage:/app/storage

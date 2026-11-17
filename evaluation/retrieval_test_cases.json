@@ -1,0 +1,10 @@
+[
+  {"question":"What risks and mitigations are documented for INIT-001?","initiative_id":"INIT-001","section":"Risks and Mitigations","source_filename":"hr_policy_copilot_charter.md"},
+  {"question":"What risks and mitigations are documented for INIT-005?","initiative_id":"INIT-005","section":"Risks and Mitigations","source_filename":"customer_service_chatbot_charter.md"},
+  {"question":"Who is the product owner and technical lead for INIT-002?","initiative_id":"INIT-002","section":"Stakeholders","source_filename":"it_helpdesk_bot_charter.md"},
+  {"question":"What benefits plan is documented for INIT-004?","initiative_id":"INIT-004","section":"Benefits Plan","source_filename":"contract_review_assistant_charter.md"},
+  {"question":"What is the scope of INIT-003?","initiative_id":"INIT-003","section":"Scope","source_filename":"sales_forecast_model_charter.pdf"},
+  {"question":"What is the timeline for INIT-006?","initiative_id":"INIT-006","section":"Timeline","source_filename":"invoice_anomaly_detector_charter.docx"},
+  {"question":"What are the objectives of INIT-007?","initiative_id":"INIT-007","section":"Objectives","source_filename":"marketing_content_copilot_charter.md"},
+  {"question":"What are the success measures for INIT-008?","initiative_id":"INIT-008","section":"Success Measures","source_filename":"demand_planning_model_charter.pdf"}
+]
